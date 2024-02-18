@@ -1,11 +1,13 @@
 [build-system]
-requires = ["hatch>=0.21.0"]
-build-backend = "hatch.backends.poetry.PoetryBackend"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.hatch]
+[project]
+
 name = "analysis_package"
 version = "0.1.0"
 description = "building Software assignment"
+dependencies = ["matplotlib", "numpy","argparse","seaborn","yaml","logging","requests"]
 authors = "Junaid Azam"
 email = "junaidfazam@gmail.com"
 license = "MIT"
