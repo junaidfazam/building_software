@@ -1,0 +1,8 @@
+plot_color: 'blue'
+plot_title: 'Monthly Sales by {dimension}'
+plot_x_title: 'Month'
+plot_y_title: 'Sales'
+figure_size:
+  width: 12
+  height: 8
+default_save_path: tmp_path
