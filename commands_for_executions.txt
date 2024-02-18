@@ -1,0 +1,5 @@
+python Analysis.py --dimension Segment --output_filename monthly_sales_by_Segment.png --title_size 18 --log_file my_log.log
+
+python Analysis.py --dimension Region --output_filename monthly_sales_by_Region.png --title_size 18 --log_file my_log.log
+
+pytest test_Analysis.py
